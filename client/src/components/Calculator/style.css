@@ -1,0 +1,31 @@
+.wrapper {
+    padding: 15px 20px;
+}
+.calcButtons {
+    width: 160px;
+}
+.calcButtons button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #868585;
+    cursor: pointer;
+}
+
+.calcButtons button:hover, .calcButtons button:focus {
+    background: #868585;
+    color: #fff;
+    outline: 0;
+}
+.calcButtons .removeBtn {
+    width: 80px;
+}
+.result p {
+    padding: 7px 8px;
+    width: 142px;
+    font-size: 16px;
+    border: 1px solid #868585;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+

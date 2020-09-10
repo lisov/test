@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "author": "Lisov",
+  "private": true,
+  "workspaces": ["back", "client"],
+  "scripts": {
+    "testClient": "npm run test --prefix client",
+    "testBack": "npm run test --prefix back",
+    "server": "npm run startClient --prefix client",
+    "client": "npm run server --prefix back",
+    "dev": "concurrently 'npm run server' 'npm run client'",
+    "test": "concurrently 'npm run testClient' 'npm run testBack'"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha 'routes/__test__/**.js'",
+    "server": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mathjs": "^7.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.2"
+  }
+}
