@@ -2,6 +2,10 @@ This is the simple calculator(test task)
 
 Steps to run project:
 
+### `git clone https://github.com/lisov/test`
+
+### `cd test`
+
 ### `yarn` to install dependencies
 
 ### `yarn dev` to start project(http://localhost:3006/) should be opened automatically )
